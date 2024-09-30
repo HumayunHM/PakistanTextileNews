@@ -10,8 +10,13 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        darkblue: '#09071F',
+        lightblue: '#95AFC0',
       },
-    },
+      fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+      }, // Add a closing brace here
+    }, // Close the extend object here
   },
   plugins: [],
 };
