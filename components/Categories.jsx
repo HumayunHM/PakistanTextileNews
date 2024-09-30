@@ -3,8 +3,7 @@ import Link from "next/link";
 
 const Categories = () => {
   return (
-    <div>
-      <hr className="border-t-4 mt-4 border-darkblue w-[92%] mx-auto" />
+    <div className="hidden md:flex">
       <div className="flex justify-start space-x-6 py-3 pl-14 ml-8 bg-white">
         <Link href="/" className="font-inter text-sm text-darkblue hover:text-blue-900">
           HOME

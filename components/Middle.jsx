@@ -7,7 +7,7 @@ import article4 from '@/assets/images/article4.jpg';
 
 const Middle = () => {
   return (
-    <div className="container mx-auto px-4 py-10 text-black w-[60%] font-inter">
+    <div className="container mx-auto px-4 py-10 text-black md:w-[60%] font-inter">
   <div className="grid grid-cols-1 gap-4">
     {/* Article 1 */}
     <div className="border border-darkblue rounded-lg p-4 flex flex-col items-start">
